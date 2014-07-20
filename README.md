@@ -5,7 +5,7 @@ A template project for running NodeJS with Nginx as the server on Heroku.
 
 ## Usage
 
-    $ heroku config:add BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
+    $ heroku config:add BUILDPACK_URL=https://github.com/mccannmax/heroku-buildpack-multi.git
 
 After the buildpack has been added edit the package.json to reflect your projects needs and write your code in app.js.
 app.js needs to be the startup script for the nodeJS instance running via Nginx but extra workers etc can be written as normal.
